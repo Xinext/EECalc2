@@ -503,7 +503,7 @@
 	NSDecimalNumber *CALX_MAX = [NSDecimalNumber decimalNumberWithString:@"18446744073709551615"];
 	
 	NSDecimalNumber *decNum1 = [NSDecimalNumber decimalNumberWithString:@"10"];
-	NSDecimalNumber *decNum2 = [NSDecimalNumber decimalNumberWithString:[NSString stringWithFormat:@"%u", num]];
+	NSDecimalNumber *decNum2 = [NSDecimalNumber decimalNumberWithString:[NSString stringWithFormat:@"%lu", (unsigned long)num]];
 	NSDecimalNumber *decTemp = [[m_imputDecNum decimalNumberByMultiplyingBy:decNum1]decimalNumberByAdding:decNum2];
 	
 	NSComparisonResult compResult = [decTemp compare:CALX_MAX];

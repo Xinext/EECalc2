@@ -353,7 +353,7 @@
 {
 	NSString*	strtext;
 	
-	strtext = [NSString stringWithFormat:@"%u", m_uintNumber ];
+	strtext = [NSString stringWithFormat:@"%lu", (unsigned long)m_uintNumber ];
 	
 	return strtext;
 }
@@ -382,7 +382,7 @@
 - (NSString*) uintNumber2HexText
 {
 	NSString*	strtext;
-	NSString*	strHex = [NSString stringWithFormat:@"%08X", m_uintNumber ];
+	NSString*	strHex = [NSString stringWithFormat:@"%08lX", (unsigned long)m_uintNumber ];
 	
 	NSString* str1 = [strHex substringWithRange:NSMakeRange(6, 2)];
 	NSString* str2 = [strHex substringWithRange:NSMakeRange(4, 2)];
@@ -413,7 +413,7 @@
 	NSString* strBin[] = { @"0000", @"0001", @"0010", @"0011", @"0100", @"0101", @"0110", @"0111",
 						   @"1000", @"1001", @"1010", @"1011", @"1100", @"1101", @"1110", @"1111" };
 	
-	NSString*	strHex = [NSString stringWithFormat:@"%08X", m_uintNumber ];
+	NSString*	strHex = [NSString stringWithFormat:@"%08lX", (unsigned long)m_uintNumber ];
 	
 	NSInteger	index;
 	NSInteger	stratPos, endPos;

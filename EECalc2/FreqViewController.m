@@ -82,13 +82,9 @@
 	rectSelectSegment.size.width = SEG_WIDTH;
 	rectSelectSegment.size.height = SEG_HIGHT;
 	m_selectSegment.frame = rectSelectSegment;
-	m_selectSegment.segmentedControlStyle = UISegmentedControlStylePlain;
 	m_selectSegment.selectedSegmentIndex = 0;
 	[m_selectSegment addTarget:self action:@selector(actSelect:) forControlEvents:UIControlEventValueChanged];
-	[m_selectSegment setTitleTextAttributes:
-											[ NSDictionary dictionaryWithObject:[ UIFont boldSystemFontOfSize:(m_selectSegment.frame.size.height / 3) ]
-											forKey:UITextAttributeFont ]
-											forState:UIControlStateNormal];
+    
 	[self.view addSubview:m_selectSegment];
 
 	
@@ -266,7 +262,7 @@
 			// The following cords calculate the next formula.
 			// answer = (1.0 / m_imputValue) * 1000
 			NSDecimalNumber *decNum1 = [NSDecimalNumber decimalNumberWithString:@"1.0"];
-			NSDecimalNumber *decNum2 = [NSDecimalNumber decimalNumberWithString:[NSString stringWithFormat:@"%u", m_imputValue]];
+			NSDecimalNumber *decNum2 = [NSDecimalNumber decimalNumberWithString:[NSString stringWithFormat:@"%lu", (unsigned long)m_imputValue]];
 			NSDecimalNumber *decNum3 = [NSDecimalNumber decimalNumberWithString:@"1000"];
 			NSDecimalNumber *decAnswer = [[decNum1 decimalNumberByDividingBy:decNum2]decimalNumberByMultiplyingBy:decNum3];
 			
@@ -295,7 +291,7 @@
 			// The following cords calculate the next formula.
 			// answer = 1000 / m_imputValue
 			NSDecimalNumber *decNum1 = [NSDecimalNumber decimalNumberWithString:@"1000"];
-			NSDecimalNumber *decNum2 = [NSDecimalNumber decimalNumberWithString:[NSString stringWithFormat:@"%u", m_imputValue]];
+			NSDecimalNumber *decNum2 = [NSDecimalNumber decimalNumberWithString:[NSString stringWithFormat:@"%lu", (unsigned long)m_imputValue]];
 			NSDecimalNumber *decAnswer = [decNum1 decimalNumberByDividingBy:decNum2];
 			
 			// freq label
@@ -585,7 +581,7 @@
 	tempValue = (tempValue * 10) + (long long)num;
 	
 	if ( tempValue <= CALC_MAX_VALUE ) {
-		m_imputValue = tempValue;
+		m_imputValue = (int)tempValue;
 		result = TRUE;
 	}
 	else {
