@@ -10,7 +10,7 @@
 #import "CalcButton.h"
 
 
-#define TABBAR_HEIGHT	(49)
+#define TABBAR_HEIGHT	(75)
 #define HEADER_HEIGHT	(20)
 
 @interface DecimalViewController ()

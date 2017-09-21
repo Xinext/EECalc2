@@ -7,18 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC08C39617EC6BDB007ECC8D /* Icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = BC08C39317EC6BDB007ECC8D /* Icon76.png */; };
-		BC08C39717EC6BDB007ECC8D /* Icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = BC08C39417EC6BDB007ECC8D /* Icon120.png */; };
-		BC08C39817EC6BDB007ECC8D /* Icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = BC08C39517EC6BDB007ECC8D /* Icon152.png */; };
+		41E266561F72841E00BB2F9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E266551F72841E00BB2F9B /* Images.xcassets */; };
 		BC3CA91816E70F9D00DA69F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3CA91716E70F9D00DA69F5 /* UIKit.framework */; };
 		BC3CA91A16E70F9D00DA69F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3CA91916E70F9D00DA69F5 /* Foundation.framework */; };
 		BC3CA91C16E70F9D00DA69F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3CA91B16E70F9D00DA69F5 /* CoreGraphics.framework */; };
 		BC3CA92216E70F9D00DA69F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3CA92016E70F9D00DA69F5 /* InfoPlist.strings */; };
 		BC3CA92416E70F9D00DA69F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3CA92316E70F9D00DA69F5 /* main.m */; };
 		BC3CA92816E70F9D00DA69F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3CA92716E70F9D00DA69F5 /* AppDelegate.m */; };
-		BC3CA92A16E70F9D00DA69F5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3CA92916E70F9D00DA69F5 /* Default.png */; };
-		BC3CA92C16E70F9D00DA69F5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3CA92B16E70F9D00DA69F5 /* Default@2x.png */; };
-		BC3CA92E16E70F9D00DA69F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3CA92D16E70F9D00DA69F5 /* Default-568h@2x.png */; };
 		BC3CA94016E70F9D00DA69F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3CA91716E70F9D00DA69F5 /* UIKit.framework */; };
 		BC3CA94116E70F9D00DA69F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3CA91916E70F9D00DA69F5 /* Foundation.framework */; };
 		BC3CA94916E70F9D00DA69F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3CA94716E70F9D00DA69F5 /* InfoPlist.strings */; };
@@ -34,10 +29,6 @@
 		BC9BB4B917407EC500D84E02 /* freq.png in Resources */ = {isa = PBXBuildFile; fileRef = BC9BB4B517407EC500D84E02 /* freq.png */; };
 		BC9BC2A1173D061E00FA2037 /* BitLengthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9BC2A0173D061E00FA2037 /* BitLengthViewController.m */; };
 		BCD68663173B67F50068748B /* FreqViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD68662173B67F50068748B /* FreqViewController.m */; };
-		BCDBA9C91720E031007938D5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBA9C81720E031007938D5 /* Icon.png */; };
-		BCDBA9CB1720E042007938D5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBA9CA1720E042007938D5 /* Icon@2x.png */; };
-		BCDBA9CD1720E04E007938D5 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBA9CC1720E04E007938D5 /* Icon-72.png */; };
-		BCDBA9CF1720E053007938D5 /* IIcon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDBA9CE1720E053007938D5 /* IIcon-72@2x.png */; };
 		BCFCA9BE17291344006CD14D /* DisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFCA9BD17291344006CD14D /* DisplayView.m */; };
 /* End PBXBuildFile section */
 
@@ -52,9 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BC08C39317EC6BDB007ECC8D /* Icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon76.png; sourceTree = "<group>"; };
-		BC08C39417EC6BDB007ECC8D /* Icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon120.png; sourceTree = "<group>"; };
-		BC08C39517EC6BDB007ECC8D /* Icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon152.png; sourceTree = "<group>"; };
+		41E266551F72841E00BB2F9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EECalc/Images.xcassets; sourceTree = "<group>"; };
 		BC3CA91416E70F9D00DA69F5 /* EECalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EECalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3CA91716E70F9D00DA69F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BC3CA91916E70F9D00DA69F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,9 +54,6 @@
 		BC3CA92516E70F9D00DA69F5 /* EECalc2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EECalc2-Prefix.pch"; sourceTree = "<group>"; };
 		BC3CA92616E70F9D00DA69F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC3CA92716E70F9D00DA69F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC3CA92916E70F9D00DA69F5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		BC3CA92B16E70F9D00DA69F5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		BC3CA92D16E70F9D00DA69F5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BC3CA93D16E70F9D00DA69F5 /* EECalc2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EECalc2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3CA94616E70F9D00DA69F5 /* EECalc2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EECalc2Tests-Info.plist"; sourceTree = "<group>"; };
 		BC3CA94816E70F9D00DA69F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -92,10 +78,6 @@
 		BC9BC2A0173D061E00FA2037 /* BitLengthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitLengthViewController.m; sourceTree = "<group>"; };
 		BCD68661173B67F50068748B /* FreqViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreqViewController.h; sourceTree = "<group>"; };
 		BCD68662173B67F50068748B /* FreqViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreqViewController.m; sourceTree = "<group>"; };
-		BCDBA9C81720E031007938D5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		BCDBA9CA1720E042007938D5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		BCDBA9CC1720E04E007938D5 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		BCDBA9CE1720E053007938D5 /* IIcon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IIcon-72@2x.png"; sourceTree = "<group>"; };
 		BCFCA9BC17291344006CD14D /* DisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayView.h; sourceTree = "<group>"; };
 		BCFCA9BD17291344006CD14D /* DisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,13 +108,7 @@
 		BC3CA90B16E70F9D00DA69F5 = {
 			isa = PBXGroup;
 			children = (
-				BC08C39317EC6BDB007ECC8D /* Icon76.png */,
-				BC08C39417EC6BDB007ECC8D /* Icon120.png */,
-				BC08C39517EC6BDB007ECC8D /* Icon152.png */,
-				BCDBA9CE1720E053007938D5 /* IIcon-72@2x.png */,
-				BCDBA9CC1720E04E007938D5 /* Icon-72.png */,
-				BCDBA9CA1720E042007938D5 /* Icon@2x.png */,
-				BCDBA9C81720E031007938D5 /* Icon.png */,
+				41E266551F72841E00BB2F9B /* Images.xcassets */,
 				BC3CA91D16E70F9D00DA69F5 /* EECalc2 */,
 				BC3CA94416E70F9D00DA69F5 /* EECalc2Tests */,
 				BC3CA91616E70F9D00DA69F5 /* Frameworks */,
@@ -181,9 +157,6 @@
 				BC3CA92016E70F9D00DA69F5 /* InfoPlist.strings */,
 				BC3CA92316E70F9D00DA69F5 /* main.m */,
 				BC3CA92516E70F9D00DA69F5 /* EECalc2-Prefix.pch */,
-				BC3CA92916E70F9D00DA69F5 /* Default.png */,
-				BC3CA92B16E70F9D00DA69F5 /* Default@2x.png */,
-				BC3CA92D16E70F9D00DA69F5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -299,7 +272,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Hiroaki Fujisawa";
 				TargetAttributes = {
 					BC3CA91316E70F9D00DA69F5 = {
@@ -332,21 +305,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC3CA92216E70F9D00DA69F5 /* InfoPlist.strings in Resources */,
-				BC3CA92A16E70F9D00DA69F5 /* Default.png in Resources */,
-				BC08C39717EC6BDB007ECC8D /* Icon120.png in Resources */,
-				BC3CA92C16E70F9D00DA69F5 /* Default@2x.png in Resources */,
-				BC08C39617EC6BDB007ECC8D /* Icon76.png in Resources */,
-				BC3CA92E16E70F9D00DA69F5 /* Default-568h@2x.png in Resources */,
-				BCDBA9C91720E031007938D5 /* Icon.png in Resources */,
-				BCDBA9CB1720E042007938D5 /* Icon@2x.png in Resources */,
-				BCDBA9CD1720E04E007938D5 /* Icon-72.png in Resources */,
-				BCDBA9CF1720E053007938D5 /* IIcon-72@2x.png in Resources */,
 				BC85F7FC1738A4C1003FB7C3 /* Localizable.strings in Resources */,
+				41E266561F72841E00BB2F9B /* Images.xcassets in Resources */,
 				BC9BB4B617407EC500D84E02 /* 10.png in Resources */,
 				BC9BB4B717407EC500D84E02 /* 16.png in Resources */,
 				BC9BB4B817407EC500D84E02 /* bitlen.png in Resources */,
 				BC9BB4B917407EC500D84E02 /* freq.png in Resources */,
-				BC08C39817EC6BDB007ECC8D /* Icon152.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,16 +413,22 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Hiroaki Fujisawa (J836R6ZDBJ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -493,17 +463,23 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Hiroaki Fujisawa (6N89BHW7Q5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hiroaki Fujisawa (6N89BHW7Q5)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -516,7 +492,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9940D1AC-DA67-4813-B2C9-D1D16FB4A271";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -526,6 +502,8 @@
 		BC3CA95016E70F9D00DA69F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -541,6 +519,8 @@
 		BC3CA95116E70F9D00DA69F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

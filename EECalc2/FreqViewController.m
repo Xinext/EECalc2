@@ -9,8 +9,8 @@
 #import "FreqViewController.h"
 #import "CalcButton.h"
 
-#define TABBAR_HEIGHT	(49)
-#define HEADER_HEIGHT	(20)
+#define TABBAR_HEIGHT    (75)
+#define HEADER_HEIGHT    (20)
 
 #define SEG_FREQ		(0)
 #define SEG_PREODIC		(1)
